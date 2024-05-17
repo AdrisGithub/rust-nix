@@ -8,6 +8,6 @@ A simple template on How to use nix to develop rust projects. I may add other la
 5. Now you can use ``nix build`` and ``nix run``
 
 ## Important Notice 
-1. Dont forget to always commit before executing commands as nix doesnt recognise uncomitted files
+1. Dont forget to always commit before executing commands as nix doesnt recognise uncommited files
 2. It is not truly deterministic as the source code and dependencies can change
 3. dont forget to update the lockfile from time to time so it doesnt grow old (You dont have to tho)
