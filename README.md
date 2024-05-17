@@ -3,9 +3,9 @@ A simple template on How to use nix to develop rust projects. I may add other la
 
 ## Usage
 1. You need to add the flake.nix, toolchain.toml and .envrc into your project
-2. You need to change self'.devShells.hello-world to self'.devShells.<<your-project-name>
-3. You need to enter ``nix develop`` in the terminal and after building run ``cargo generate-lockfile``
-4. Now you can use ``nix build`` and ``nix run``
+2. You need to change self'.devShells.hello-world to self'.devShells.your-project-name
+4. You need to enter ``nix develop`` in the terminal and after building run ``cargo generate-lockfile``
+5. Now you can use ``nix build`` and ``nix run``
 
 ## Important Notice 
 1. Dont forget to always commit before executing commands as nix doesnt recognise uncomitted files
